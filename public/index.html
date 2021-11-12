@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <title>NVIDIA</title>
+</head>
+<body>
+   <div class="font-roboto bg-main-bg bg-no-repeat bg-cover px-4 text-white lg:h-screen"> <!--wrapper-->
+      <header class="pt-2.5 sm:pt-6 bg-black sm:bg-transparent h-full sm:h-auto">
+         <div class="max-w-6xl m-auto flex flex-col sm:flex-row mb-14 sm:items-center"> <!--container-->
+            <div class="flex justify-between mb-7 sm:mb-0">
+               <a href="#" class="block mr-9 w-11 h-8 sm:w-20 sm:h-16"> <!--logo-->
+                  <img src="./img/logo.png" alt="logo" class="object-cover">
+               </a>
+               <div class="cursor-pointer py-5 px-4 transition duration-300 ease-in-out sm:hidden -mt-2.5 -mr-4 burger"> <!--burger-->
+                  <span class="block h-0.5 w-7 bg-white mb-1.5"></span>
+                  <span class="block h-0.5 w-7 bg-white mb-1.5"></span>
+                  <span class="block h-0.5 w-7 bg-white"></span>
+               </div>
+            </div>
+            <nav class="hidden sm:flex flex-col sm:flex-row flex-grow justify-between menu"> <!--menu-->
+               <ul class="flex flex-col sm:flex-row items-center mb-80 sm:mb-0">
+                  <li class="block mb-6 sm:mb-0 font-base uppercase sm:mr-12 font-play cursor-pointer transition duration-300 ease-in-out hover:text-myGreen">Продукты</li>
+                  <li class="block mb-6 sm:mb-0 font-base uppercase sm:mr-12 font-play cursor-pointer transition duration-300 ease-in-out hover:text-myGreen">Технологии</li>
+                  <li class="block font-base uppercase sm:mr-12 font-play cursor-pointer transition duration-300 ease-in-out hover:text-myGreen">Experience</li>
+               </ul>
+               <div class="flex justify-center"> <!--icon cursor-pointers-->
+                  <div class="mr-3 icon cursor-pointer"> <!--icon cursor-pointer-->
+                     <div>
+                        <img src="./img/tw.png" alt="tw">
+                     </div>
+                     <div class="hidden">
+                        <img src="./img/tw_hover.png" alt="tw_hover">
+                     </div>
+                  </div>
+                  <div class="icon cursor-pointer"> <!--icon cursor-pointer-->
+                     <div>
+                        <img src="./img/inst.png" alt="inst">
+                     </div>
+                     <div class="hidden">
+                        <img src="./img/inst_hover.png" alt="inst_hover">
+                     </div>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <main class="pb-32">
+         <div class="max-w-3xl m-auto mb-14"> <!--container-->
+            <h1 class=" font-play text-center text-2xl font-bold uppercase mb-5">ПРЕИМУЩЕСТВА G-SYNC</h1>
+            <p class=" text-center text-base leading-7">
+               Каждый монитор с технологией G-SYNC проходит серьезное тестирование и контроль качества для обеспечения максимальной производительности. Сотни мониторов проходят контроль качества, но только прошедшие все тесты получают сертификацию G-SYNC.
+            </p>
+         </div>
+         <div class="max-w-6xl m-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-14 sm:gap-x-7 lg:gap-y-0 mb-12"> <!--container-->
+            <div class="flex flex-col items-center"> <!--card-->
+               <div class="mb-7 icon cursor-pointer"> <!--icon cursor-pointer-->
+                  <div>
+                     <img src="./img/eye_1.png" alt="eye_1">
+                  </div>
+                  <div class="hidden">
+                     <img src="./img/eye-h_1.png" alt="eye_1">
+                  </div>
+               </div>
+               <h3 class="font-play text-2xl font-bold uppercase mb-3 self-start"><span class="text-myGreen">HDR</span> DISPLAY</h3>
+               <p class="text-base">Получите более широкий и комфортный для восприятия диапазон цветовой гаммы, чем в обычных мониторах.</p>
+            </div>
+            <div class="flex flex-col items-center"> <!--card-->
+               <div class="mb-7 icon cursor-pointer"> <!--icon cursor-pointer-->
+                  <div>
+                     <img src="./img/eye_2.png" alt="eye_1">
+                  </div>
+                  <div class="hidden">
+                     <img src="./img/eye-h_2.png" alt="eye_1">
+                  </div>
+               </div>
+               <h3 class="font-play text-2xl font-bold uppercase mb-3 self-start"><span class="text-myGreen">INPUT</span> LAG</h3>
+               <p class="text-base">Мониторы с технологией G-SYNC обеспечивают минимальную задержку между нажатием клавиш и результатом на экране, что очень важно для геймеров.</p>
+            </div>
+            <div class="flex flex-col items-center"> <!--card-->
+               <div class="mb-7 icon cursor-pointer"> <!--icon cursor-pointer-->
+                  <div>
+                     <img src="./img/eye_3.png" alt="eye_1">
+                  </div>
+                  <div class="hidden">
+                     <img src="./img/eye-h_3.png" alt="eye_1">
+                  </div>
+               </div>
+               <h3 class="font-play text-2xl font-bold uppercase mb-3 self-start"><span class="text-myGreen">HIGH REFRESH</span> RATE</h3>
+               <p class="text-base">NVIDIA тесно сотрудничает с производителями мониторов, чтобы вывести на рынок широкий спектр дисплеев с высокой частотой обновления экрана от 75 до 360 Гц.</p>
+            </div>
+            <div class="flex flex-col items-center"> <!--card-->
+               <div class="mb-7 icon cursor-pointer"> <!--icon cursor-pointer-->
+                  <div>
+                     <img src="./img/eye_4.png" alt="eye_1">
+                  </div>
+                  <div class="hidden">
+                     <img src="./img/eye-h_4.png" alt="eye_1">
+                  </div>
+               </div>
+               <h3 class="font-play text-2xl font-bold uppercase mb-3 self-start"><span class="text-myGreen">WIDE COLOR</span> GAMUT</h3>
+               <p class="text-base">Современные мониторы G-SYNC ULTIMATE поддерживают цветовой охват DCI-P3, обеспечивая более реалистичную цветопередачу с плавными переходами.</p>
+            </div>
+         </div>
+         <button class="text-lg uppercase font-play font-bold bg-myGreen tracking-wide w-full sm:w-max px-14 py-4 block m-auto border-2 border-myGreen hover:bg-transparent hover:shadow-custom">КУПИТЬ</button>
+      </main>
+   </div>
+   <script src="./script.js"></script>
+</body>
+</html>
