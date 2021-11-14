@@ -18,3 +18,15 @@ burger.addEventListener(`click`, e => {
    burger.classList.toggle(`bg-myGreen`)
    menu.classList.toggle(`hidden`)
 })
+
+const buy = document.querySelector(`#buy`),
+   popup = document.querySelector(`#popup`),
+   close = document.querySelector(`#close`)
+
+buy.addEventListener(`click`, e => {
+   popup.classList.toggle(`hidden`)
+})
+
+close.addEventListener(`click`, e => {
+   popup.classList.add(`hidden`)
+})
